@@ -6,7 +6,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 
 public class Hooks {
-    
+
     ListenerClass listener = new ListenerClass();
 
     @Before()
@@ -14,12 +14,8 @@ public class Hooks {
         Driver.initDriver();
 
     }
-
-
     @After
     public void close() {
         Driver.tearDown();
     }
-
-
 }

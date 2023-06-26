@@ -12,10 +12,13 @@ import org.testng.annotations.BeforeClass;
             monochrome = false,
             plugin ={"pretty", "html:target/HTMLReports/report.html"}
 
+
 )
 public class RegTestRunner extends AbstractTestNGCucumberTests {
-    private TestNGCucumberRunner testNGCucumberRunner;
 
+
+//    private TestNGCucumberRunner testNGCucumberRunner;
+//
 //    @BeforeClass(alwaysRun = true)
 //    public void setUpClass() throws Exception {
 //        testNGCucumberRunner = new TestNGCucumberRunner(this.getClass());
